@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    
+    
+}
+
+
+input
+{
+    padding: 3px;
+    color: black;
+
+}
+.header
+{
+    background-color:rgb(60, 60, 212);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header>h1{
+    margin-left: -150px;
+}
+.login
+{
+    display: flex;
+    align-items: center;
+  
+}
+
+.login>.box1
+{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.login>.box
+{
+    margin-top:-7px ;
+}
+
+.login>.box1>a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.login>.button>button
+{
+    background-color: transparent;
+    outline: none;
+    padding: 4px 15px;
+}
+
+#content
+{
+    background-color: rgb(225, 237, 247);
+    display: flex;
+    justify-content:space-between;
+    min-height: 450px;
+}
+
+#content>.left
+{
+    margin-top: 100px;
+    width:700px
+}
+
+#content>.left>p
+{
+    text-align: center;
+    font-size: 1.3rem;
+}
+#content>.left>img
+{
+    width:650px;
+    height: 300px;
+}
+
+#content>.right
+{
+    display: flex;
+    width:500px;
+    flex-direction: column;
+}
+#content>.right>h3{
+    margin: 10px 0px;
+}
+
+
+#content>.right>#signup
+{
+    
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+   
+}
+
+#content>.right>#signup>.email>input[type=email]
+{
+    width:250px
+
+    
+}
+
+#content>.right>#signup>.gender
+{
+    display: inline-block;  
+}
+
+#content>.right>#signup>.last>p>span
+{
+    color: blue;
+
+}
+
+#content>.right>#signup>.last>.button
+{
+    margin: 10px 0px;
+    background-color: rgb(33, 155, 33);
+    padding: 8px 25px;
+    border: none;
+    outline: none;
+    border-radius: 5px ;
+
+}
+
+#content>.right>#signup>.last>p>a
+{
+    text-decoration: none;
+    color: blue;
+
+}
+
+.footer
+{
+    text-align: center;
+}
+.footer>.li>li{
+    
+    list-style: none;
+    display: inline-block;
+    margin:10px  0px 0px 100px;
+
+}
+
+.footer>.li>li>a{
+    text-decoration: none;
+    color:blue
+
+}
+
